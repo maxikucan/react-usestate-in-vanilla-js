@@ -45,7 +45,7 @@ const React = (() => {
     }
 
     return { useState, renderer, createElement }
-})()
+})();
 
 // COMPONENT
 function ExampleComponent() {
@@ -60,7 +60,7 @@ function ExampleComponent() {
         click: () => setCount(count + 1),
         change: () => setText("Changed text")
     }
-}
+};
 
 // ROOT
 const root = document.getElementById("root");
